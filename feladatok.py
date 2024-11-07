@@ -21,4 +21,16 @@ def feladat_2():
     if(i==len(lista)):
         print(f"A számok között {harmas} db 3-mal osztható van!")
 
+def feladat_4():
+    nevek=input("Adj meg tetszőleges számú nevet! Ha elég volt, írj @ karaktert! Már meg is adhatod az elsőt: ")
+    db=0
+    while(nevek!="@"):
+        nevek=input("Add meg a következő nevet: ")
+        db+=1
+    if(nevek=="@"):
+        print(f"A felhasználó {db} nevet adott meg.")
+        
+
+
+
 
