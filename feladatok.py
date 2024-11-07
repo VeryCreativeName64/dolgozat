@@ -55,6 +55,12 @@ def feladat_5():
         elif(felhasznalo_tippje=="olló" and gep_tippje==2):
             print("Te ollóra, én papírra gondoltam, így nyertél!")
 
+def feladat_3(text:str,N:int):
+    if(len(text)<N):
+        print(f"Nincs {N}. karakter!")
+    else:
+        print(f"A szöveg {N}. karaktere {text[N]} - {text[N].upper()*3}")
+
 
     
 
