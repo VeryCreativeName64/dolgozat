@@ -1,7 +1,11 @@
 import feladatok
-
-#feladatok.feladat_1()
-#feladatok.feladat_2()
-#feladatok.feladat_3("Remélem jó lesz a program.",2)
-#feladatok.feladat_4()
-#feladatok.feladat_5()
+print("1. feladat")
+feladatok.feladat_1()
+print("2. feladat")
+feladatok.feladat_2()
+print("3. feladat")
+feladatok.feladat_3("Remélem jó lesz a program.",2)
+print("4. feladat")
+feladatok.feladat_4()
+print("5. feladat")
+feladatok.feladat_5()
